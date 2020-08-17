@@ -25,10 +25,35 @@ export const Flex = styled.div`
   }
 `;
 
+//ESTO ESTA EDITADO: REFORMATEAR <<<<<<<<<<<<<
 export const Links = styled.div`
+
   display: flex;
   align-items: center;
 
+  div {
+    display: flex;
+    &:first-child {
+      margin: 0 0.5rem;
+    }
+
+    img {
+      margin: 0;
+    }
+
+    svg path {
+      fill: ${({ theme }) => (theme === 'light' ? '#000' : '#000')};
+    }
+
+    span {
+      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+      margin-left: 0.5rem;
+    }
+  }
+
+  ${'' /* 
+  display: flex;
+  align-items: center;
   a {
     margin: 0 0.5rem;
 
@@ -40,7 +65,7 @@ export const Links = styled.div`
     &:last-child {
       margin: 0;
     }
-  }
+  } */}
 `;
 
 export const Details = styled.div`

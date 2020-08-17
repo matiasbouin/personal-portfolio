@@ -16,7 +16,7 @@ export const Footer = () => {
       <Details>
         <h2>Angel Matias Bouin</h2>
         <span>
-          © All rights are reserved | {new Date().getFullYear()} | Some text?
+          © All rights are reserved | {new Date().getFullYear()} 
         </span>
       </Details>
 

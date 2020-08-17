@@ -17,11 +17,12 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
+            I'm a 22 years old Informatics student and web developer based in Argentina, currently on the hunt 
+            for job opportunities! If you want to know more about me, my stack or what I can do, do not hesitate to contact 
+            me at angelmatiasbouin@gmail.com or through the contact form below and I'll get back to you!
           </p>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Contact me
           </Button>
         </Details>
       </SkillsWrapper>

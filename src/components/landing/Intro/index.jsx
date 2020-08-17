@@ -15,9 +15,9 @@ export const Intro = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi There!</h1>
-          <h4>I’m Matias and I’m a FullStack developer!</h4>
+          <h4>I’m Matias and I’m a FullStack web developer!</h4>
           <Button as={AnchorLink} href="#contact">
-            Hire me
+            Contact me
           </Button>
         </Details>
         <Thumbnail>

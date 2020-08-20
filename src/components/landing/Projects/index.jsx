@@ -1,10 +1,11 @@
-import React, { useContext } from 'react';
+import React, { useContext, preventDefault } from 'react';
 // import { useStaticQuery, graphql } from 'gatsby'; //VER, CREO QUE NO LO NECESITO
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Card } from 'components/common';
 //RECORDAR BORRAR CARPETA ICONS SI NO LOS USAS!!!!!!
 // import Star from 'components/common/Icons/Star'; //NO LO NECESITO
 // import Fork from 'components/common/Icons/Fork'; //NO LO NECESITO
+import Link from '@material-ui/core/Link';
 import LinkIcon from '@material-ui/icons/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Wrapper, Grid, Item, Content, Stats } from './styles'; 
@@ -16,7 +17,7 @@ export const Projects = () => {
     <Wrapper as={Container} id="projects">
     <h2>Projects</h2>
     <Grid>
-    {proyects.map(({ id, name, description }) => (
+    {proyects.map(({ id, name, description, link, github }) => (
     <Item theme={theme} key={id}> 
       <Card theme={theme}>
         <Content>
@@ -25,10 +26,14 @@ export const Projects = () => {
         </Content>
         <Stats theme={theme}>
         <div>
+        <Link href={link} onClick={preventDefault} target="_blank" rel="noopener noreferrer">
         <LinkIcon/>
+        </Link>
         </div>
         <div>
+        <Link href={github} onClick={preventDefault} target="_blank" rel="noopener noreferrer">
         <GitHubIcon/>
+        </Link>
         </div>
         </Stats>
       </Card>

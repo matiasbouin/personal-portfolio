@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Some name",
-    "description": "Some description",
-    "link": "Some link",
-    "github": "Github link"
+    "name": "TinDog",
+    "description": "Landing page for TinDog app (Like Tinder but for dogs)",
+    "link": "https://matiasbouin.github.io/TinDog/",
+    "github": "https://github.com/matiasbouin/TinDog"
   },
   {
     "id": 2,
-    "name": "Some else name",
-    "description": "Some else description",
-    "link": "Some else link",
-    "github": "Github else link"
+    "name": "Blog",
+    "description": "Blog made with NextJS",
+    "link": "https://nextjs-blog-git-master.matiasbouin.vercel.app/",
+    "github": "https://github.com/matiasbouin/nextjs-blog"
   },
   {
     "id": 3,
-    "name": "Some other name",
-    "description": "Some other description",
-    "link": "Some other link",
-    "github": "Github other link"
+    "name": "ToDoList",
+    "description": "Simple ToDoList connected to MongoDB",
+    "link": "https://arcane-escarpment-23136.herokuapp.com/",
+    "github": "https://github.com/matiasbouin/to-do-list-mongodb"
   }
 ]

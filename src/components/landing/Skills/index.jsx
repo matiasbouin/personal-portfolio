@@ -19,7 +19,7 @@ export const Skills = () => {
           <p>
             I'm a 22 years old Informatics student and web developer based in Argentina, currently on the hunt 
             for job opportunities! If you want to know more about me, my stack or what I can do, do not hesitate to contact 
-            me at angelmatiasbouin@gmail.com or through the contact form below and I'll get back to you!
+            me through the contact form below and I'll get back to you!
           </p>
           <Button as={AnchorLink} href="#contact">
             Contact me

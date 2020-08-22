@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext, preventDefault } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import { Wrapper, Flex, Links, Details } from './styles';
+import Link from '@material-ui/core/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
@@ -23,10 +24,14 @@ export const Footer = () => {
       {/* >>>>>>>>>> AGREGAR LINKS A LINKEDIN Y GITHUB <<<<<<<<<<<< */}
       <Links theme={theme}>
         <div>
-          <GitHubIcon/>
+          <Link href="https://github.com/matiasbouin" onClick={preventDefault} target="_blank" rel="noopener noreferrer">
+            <GitHubIcon/>
+          </Link>
         </div>
         <div>
-          <LinkedInIcon/>
+          <Link href="https://www.linkedin.com/in/matias-bouin/" onClick={preventDefault} target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon/>
+          </Link>
         </div>
         {/* {social.map(({ id, name, link, icon }) => (
           <a key={id} href={link} target="_blank" rel="noopener noreferrer" aria-label={`follow me on ${name}`}>

@@ -1,7 +1,7 @@
-import React, { useContext, preventDefault } from 'react';
-import { Container, Card } from 'components/common';
+import React, { useContext } from 'react';
+import { Container } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Wrapper, Grid, Item, Content, Stats } from './styles';
+import { Wrapper, Grid, Item, Content } from './styles';
 import { IconContext } from "react-icons"; 
 import { SiJavascript, SiGithub, SiHtml5, SiCss3, SiGatsby, SiGnubash, SiReact, SiGit, SiMongodb, SiMaterialUi, SiBootstrap } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';

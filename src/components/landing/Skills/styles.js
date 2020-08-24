@@ -1,65 +1,67 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  background-image: url(${detailsIllustration});
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
+  padding: 2rem 0;
 `;
 
-export const SkillsWrapper = styled.div`
-  padding: 4rem 0;
+export const Grid = styled.div`
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 8fr;
+  grid-gap: 1.2rem 1.2rem;
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 680px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+
+export const Item = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
-`;
-
-export const Details = styled.div`
-  flex: 1;
-  padding-left: 2rem;
-
-  @media (max-width: 960px) {
-    padding-left: unset;
-    width: 100%;
-  }
-
-  h1 {
-    margin-bottom: 2rem;
-    font-size: 26pt;
-    color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
-
-    @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
-    }
+  h4 {
+    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
   }
 
   p {
-    margin-bottom: 2.5rem;
-    font-size: 20pt;
-    font-weight: normal;
-    line-height: 1.3;
-    color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#707070')};
-
-    @media (max-width: 960px) {
-      mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
-    }
+    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#c7c7c7')};
   }
 `;
 
-export const Thumbnail = styled.div`
-  flex: 1;
+export const Content = styled.div`
+  margin: auto;
+`;
 
-  @media (max-width: 960px) {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
+export const Stats = styled.div`
+  display: flex;
+  align-items: center;
 
-  img {
-    width: 100%;
+  div {
+    display: flex;
+    &:first-child {
+      margin-right: 0.5rem;
+    }
+
+    img {
+      margin: 0;
+    }
+
+    svg path {
+      fill: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+    }
+
+    span {
+      color: ${({ theme }) => (theme === 'light' ? '#000' : '#fff')};
+      margin-left: 0.5rem;
+    }
   }
 `;

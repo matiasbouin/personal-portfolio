@@ -2,9 +2,9 @@ module.exports = {
   defaultTitle: 'Angel Matias Bouin',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
   author: 'Angel Matias Bouin',
-  url: 'https://portfolio.smakosh.com',
+  url: 'https://personal-portfolio-chi.vercel.app/',
   legalName: 'Angel Matias Bouin',
-  defaultDescription: "I'm Matias and I'm a FUllStack web developer",
+  defaultDescription: "I'm Matias and I'm a web developer",
   socialLinks: {
     twitter: 'http://www.twitter.com/sudomatias',
     github: 'https://github.com/matiasbouin',
@@ -13,7 +13,7 @@ module.exports = {
     youtube: 'https://www.youtube.com/channel/UChXQwzoroPTp5l1TqpMhsuA?disable_polymer=true',
     
   },
-  googleAnalyticsID: 'UA-88875900-4',
+  googleAnalyticsID: 'UA-176219974-1',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
@@ -26,8 +26,8 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   contact: {
-    email: 'email',
+    email: 'angelmatiasbouin@gmail.com',
     phone: 'phone number',
   },
-  foundingDate: '2018',
+  foundingDate: '2020',
 };

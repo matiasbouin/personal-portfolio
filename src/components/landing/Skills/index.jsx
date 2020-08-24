@@ -1,31 +1,118 @@
-import React, { useContext } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React, { useContext, preventDefault } from 'react';
+import { Container, Card } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/skills.svg';
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
+import { Wrapper, Grid, Item, Content, Stats } from './styles';
+import { IconContext } from "react-icons"; 
+import { SiJavascript, SiGithub, SiHtml5, SiCss3, SiGatsby, SiGnubash, SiReact, SiGit, SiMongodb, SiMaterialUi, SiBootstrap } from 'react-icons/si';
+import { FaNode } from 'react-icons/fa';
 
+//Got to reformat this piece of code :s
 export const Skills = () => {
   const { theme } = useContext(ThemeContext);
-
   return (
-    <Wrapper id="about">
-      <SkillsWrapper as={Container}>
-        <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
-        </Thumbnail>
-        <Details theme={theme}>
-          <h1>More about me</h1>
-          <p>
-            I'm a 22 years old Informatics student and web developer based in Argentina, currently on the hunt 
-            for job opportunities! If you want to know more about me, my stack or what I can do, do not hesitate to contact 
-            me through the contact form below and I'll get back to you!
-          </p>
-          <Button as={AnchorLink} href="#contact">
-            Contact me
-          </Button>
-        </Details>
-      </SkillsWrapper>
+    <Wrapper as={Container} id="skills">
+    <h2>Skills</h2>
+
+    <Grid>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiHtml5 />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiCss3 />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiJavascript />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiReact />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiBootstrap />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiMaterialUi />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <FaNode />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiMongodb />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiGatsby />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiGnubash />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiGit />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiGithub />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    </Grid>
     </Wrapper>
-  );
-};
+  )
+}

@@ -9,12 +9,22 @@ module.exports = {
     title: config.defaultTitle,
     description: config.defaultDescription,
     author: config.author,
+    siteUrl: config.url
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: config.url,
+        sitemap: 'https://personal-portfolio-chi.vercel.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {

@@ -30,7 +30,7 @@
   {
     "id": 5,
     "name": "Wisey bot",
-    "description": "Twitter bot made with python that qoutes once a day and retweets mentions",
+    "description": "Twitter bot made with python that quotes once a day and retweets mentions",
     "link": "https://twitter.com/wiseybot",
     "github": "https://github.com/matiasbouin/wisey-bot"
   },

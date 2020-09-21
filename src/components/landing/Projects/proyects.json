@@ -2,35 +2,35 @@
   {
     "id": 1,
     "name": "Keeper App",
-    "description": "Simple Note Keeper made with create react app",
+    "description": "Note Keeper made with create react app, using State and Hooks",
     "link": "https://simple-note-keeper.vercel.app/",
     "github": "https://github.com/matiasbouin/NoteKeeper"
   },
   {
     "id": 2,
     "name": "Blog",
-    "description": "Blog made with NextJS",
+    "description": "Blog made with NextJS tutorial",
     "link": "https://nextjs-blog-git-master.matiasbouin.vercel.app/",
     "github": "https://github.com/matiasbouin/nextjs-blog"
   },
   {
     "id": 3,
     "name": "ToDoList",
-    "description": "Simple ToDoList connected to MongoDB",
+    "description": "ToDoList with dynamic routing that saves the different lists in MongoDB",
     "link": "https://arcane-escarpment-23136.herokuapp.com/",
     "github": "https://github.com/matiasbouin/to-do-list-mongodb"
   },
   {
     "id": 4,
     "name": "TinDog",
-    "description": "Landing page for TinDog app (Like Tinder but for dogs)",
+    "description": "Landing page made with plain HTML, CSS, JS and Bootstrap",
     "link": "https://matiasbouin.github.io/TinDog/",
     "github": "https://github.com/matiasbouin/TinDog"
   },
   {
     "id": 5,
     "name": "Wisey bot",
-    "description": "Twitter bot made with python",
+    "description": "Twitter bot made with python that qoutes once a day and retweets mentions",
     "link": "https://twitter.com/wiseybot",
     "github": "https://github.com/matiasbouin/wisey-bot"
   },

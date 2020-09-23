@@ -8,36 +8,36 @@
   },
   {
     "id": 2,
-    "name": "Blog",
-    "description": "Blog made with NextJS tutorial",
-    "link": "https://nextjs-blog-git-master.matiasbouin.vercel.app/",
-    "github": "https://github.com/matiasbouin/nextjs-blog"
+    "name": "Mambos Blog",
+    "description": "Blog modified to my needs from Gatsby Lumen Starter. Implements Netlify CMS UI to create blog posts on the go",
+    "link": "https://mambos.netlify.app/",
+    "github": "https://github.com/matiasbouin/mambos-blog"
   },
   {
     "id": 3,
     "name": "ToDoList",
-    "description": "ToDoList with dynamic routing that saves the different lists in MongoDB",
+    "description": "ToDoList with dynamic routing. Create a new List by givin the url a new page => url/<new-list>. It stores the different lists in MongoDB",
     "link": "https://arcane-escarpment-23136.herokuapp.com/",
     "github": "https://github.com/matiasbouin/to-do-list-mongodb"
   },
   {
     "id": 4,
     "name": "TinDog",
-    "description": "Landing page made with plain HTML, CSS, JS and Bootstrap",
+    "description": "Responsive Landing Page made with plain HTML, CSS, JS and Bootstrap",
     "link": "https://matiasbouin.github.io/TinDog/",
     "github": "https://github.com/matiasbouin/TinDog"
   },
   {
     "id": 5,
     "name": "Wisey bot",
-    "description": "Twitter bot made with python that quotes once a day and retweets mentions",
+    "description": "Twitter bot made with python and Twitter API tweepy. Quotes a 'wise' phrase once a day and retweets mentions",
     "link": "https://twitter.com/wiseybot",
     "github": "https://github.com/matiasbouin/wisey-bot"
   },
   {
     "id": 6,
     "name": "Techno Kit",
-    "description": "Techno sounds keypad",
+    "description": "Techno sounds keypad handling js events",
     "link": "https://matiasbouin.github.io/TechnoKit/",
     "github": "https://github.com/matiasbouin/TechnoKit"
   }

@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Keeper App",
-    "description": "Note Keeper made with create react app, using State and Hooks",
+    "description": "Note Keeper made with create react app, using State and Hooks.",
     "link": "https://simple-note-keeper.vercel.app/",
     "github": "https://github.com/matiasbouin/NoteKeeper"
   },
   {
     "id": 2,
     "name": "Mambos Blog",
-    "description": "Blog modified to my needs from Gatsby Lumen Starter. Implements Netlify CMS UI to create blog posts on the go",
+    "description": "Modified Gatsby Blog. Implements Netlify CMS UI to create blog posts on the go.",
     "link": "https://mambos.netlify.app/",
     "github": "https://github.com/matiasbouin/mambos-blog"
   },
   {
     "id": 3,
     "name": "ToDoList",
-    "description": "ToDoList with dynamic routing. Create a new List by givin the url a new page => url/<new-list>. It stores the different lists in MongoDB",
+    "description": "ToDoList with dynamic routing. It stores the different lists in MongoDB",
     "link": "https://arcane-escarpment-23136.herokuapp.com/",
     "github": "https://github.com/matiasbouin/to-do-list-mongodb"
   },
@@ -29,15 +29,15 @@
   },
   {
     "id": 5,
-    "name": "Wisey bot",
-    "description": "Twitter bot made with python and Twitter API tweepy. Quotes a 'wise' phrase once a day and retweets mentions",
+    "name": "Twitter Wisey Bot",
+    "description": "Bot made with python and tweepy API. Quotes phrases and retweets mentions",
     "link": "https://twitter.com/wiseybot",
     "github": "https://github.com/matiasbouin/wisey-bot"
   },
   {
     "id": 6,
     "name": "Techno Kit",
-    "description": "Techno sounds keypad handling js events",
+    "description": "Techno sounds keypad handling js events with plain vanilla js",
     "link": "https://matiasbouin.github.io/TechnoKit/",
     "github": "https://github.com/matiasbouin/TechnoKit"
   }

@@ -36,10 +36,10 @@
   },
   {
     "id": 6,
-    "name": "Techno Kit",
-    "description": "Techno sounds keypad handling js events with plain vanilla js",
-    "link": "https://matiasbouin.github.io/TechnoKit/",
-    "github": "https://github.com/matiasbouin/TechnoKit"
+    "name": "Skate Dice",
+    "description": "Fast, responsive and easy-to-use web based Skate Dice game. Made with gatsby and react state.",
+    "link": "https://freeskatedice.netlify.app/",
+    "github": "https://github.com/matiasbouin/skate-dice"
   }
 
 ]

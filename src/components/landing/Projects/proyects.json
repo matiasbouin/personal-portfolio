@@ -37,7 +37,7 @@
   {
     "id": 6,
     "name": "Skate Dice",
-    "description": "Fast, responsive and easy-to-use web based Skate Dice game. Made with gatsby and react state.",
+    "description": "Fast and responsive web based Skate Dice game. Made with gatsby and react state.",
     "link": "https://freeskatedice.netlify.app/",
     "github": "https://github.com/matiasbouin/skate-dice"
   }

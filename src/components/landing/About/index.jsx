@@ -17,8 +17,8 @@ export const About = () => {
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            I'm a 22 year old Informatics student and web developer based in Argentina, currently on the hunt 
-            for job opportunities! If you want to know more about me, my stack or what I can do, do not hesitate to contact 
+            I'm a 23 year old Informatics student and software developer based in Capital Federal, Argentina, currently on the hunt 
+            for job opportunities within the IT field! If you want to know more about me, my stack or what I can do, do not hesitate to contact 
             me through the contact form below and I'll get back to you!
           </p>
           <Button as={AnchorLink} href="#contact">

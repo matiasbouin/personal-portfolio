@@ -3,7 +3,7 @@ import { Container } from 'components/common';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Wrapper, Grid, Item, Content } from './styles';
 import { IconContext } from "react-icons"; 
-import { SiJavascript, SiGithub, SiHtml5, SiCss3, SiGatsby, SiGnubash, SiReact, SiGit, SiMongodb, SiMaterialUi, SiBootstrap } from 'react-icons/si';
+import { SiJavascript, SiGithub, SiHtml5, SiCss3, SiGatsby, SiGnubash, SiReact, SiGit, SiMongodb, SiPython, SiBootstrap } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';
 
 //Got to reformat this piece of code :s
@@ -58,7 +58,7 @@ export const Skills = () => {
     <Item theme={theme}>
     <Content>
       <IconContext.Provider value={{ size:"4em" }}>
-          <SiMaterialUi />
+          <SiPython />
       </IconContext.Provider>
     </Content>
     </Item>

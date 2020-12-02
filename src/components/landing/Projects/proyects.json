@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "Keeper App",
-    "description": "Note Keeper made with create react app, using State and Hooks.",
+    "description": "Note Keeper made with create react app, using State and Hooks",
     "link": "https://simple-note-keeper.vercel.app/",
     "github": "https://github.com/matiasbouin/NoteKeeper"
   },
   {
     "id": 2,
     "name": "Mambos Blog",
-    "description": "Modified Gatsby Blog. Implements Netlify CMS UI to create blog posts on the go.",
+    "description": "Modified Gatsby Blog. Implements Netlify CMS UI to create blog posts on the go",
     "link": "https://mambos.netlify.app/",
     "github": "https://github.com/matiasbouin/mambos-blog"
   },
@@ -37,7 +37,7 @@
   {
     "id": 6,
     "name": "Skate Dice",
-    "description": "Fast and responsive web based Skate Dice game. Made with gatsby and react state.",
+    "description": "Fast and responsive web based Skate Dice game. Made with gatsby and react state",
     "link": "https://freeskatedice.netlify.app/",
     "github": "https://github.com/matiasbouin/skate-dice"
   }

@@ -50,22 +50,6 @@ export const Skills = () => {
     <Item theme={theme}>
     <Content>
       <IconContext.Provider value={{ size:"4em" }}>
-          <SiBootstrap />
-      </IconContext.Provider>
-    </Content>
-    </Item>
-
-    <Item theme={theme}>
-    <Content>
-      <IconContext.Provider value={{ size:"4em" }}>
-          <SiPython />
-      </IconContext.Provider>
-    </Content>
-    </Item>
-
-    <Item theme={theme}>
-    <Content>
-      <IconContext.Provider value={{ size:"4em" }}>
           <FaNode />
       </IconContext.Provider>
     </Content>
@@ -79,11 +63,26 @@ export const Skills = () => {
     </Content>
     </Item>
 
-
     <Item theme={theme}>
     <Content>
       <IconContext.Provider value={{ size:"4em" }}>
           <SiGatsby />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiBootstrap />
+      </IconContext.Provider>
+    </Content>
+    </Item>
+
+    <Item theme={theme}>
+    <Content>
+      <IconContext.Provider value={{ size:"4em" }}>
+          <SiPython />
       </IconContext.Provider>
     </Content>
     </Item>

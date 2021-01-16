@@ -4,7 +4,7 @@ module.exports = {
   author: 'Angel Matias Bouin',
   url: 'https://personal-portfolio-chi.vercel.app/',
   legalName: 'Angel Matias Bouin',
-  defaultDescription: "I'm Matias and I'm a web developer",
+  defaultDescription: "I'm Matias and I'm a software engineer",
   socialLinks: {
     twitter: 'http://www.twitter.com/sudomatias',
     github: 'https://github.com/matiasbouin',

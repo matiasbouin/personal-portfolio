@@ -17,7 +17,7 @@ export const About = () => {
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            I'm currently working as a jr software engineer on cloud security and automation, using both DevOps and Agile practices, and tools. I'm pursuing a Bachelor's degree in Informatics, I'm 23 years old and I'm currently based on Ciudad de Buenos Aires, Argentina. If you want to get in touch, just click the "Contact me" link below :]
+            I'm currently working as a jr software engineer on cloud security and automation, using both DevOps and Agile practices and tools. I'm pursuing a Bachelor's degree in Informatics, I'm 23 years old and I'm currently based on Ciudad de Buenos Aires, Argentina. If you want to get in touch, just click the "Contact me" link below :]
           </p>
           <Button as={AnchorLink} href="#contact">
             Contact me
